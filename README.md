@@ -8,9 +8,11 @@ exemplo get:
 
 
 exemplo post:
- {
+```json
+{
 "name": "Adrenaline"
 }
+```
 
 
 
