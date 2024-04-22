@@ -12,7 +12,7 @@ consultaPerkPost.java : Diferente do anterior, este define o endpoint /consultar
 
 perkDescricaoDTO.java : É um DTO utilizado para representar a descrição das vantagens do jogo.Os métodos getter e setter são fornecidos para acessar e modificar esses atributos. É usado para mapear os dados recebidos das solicitações.
 
-**EXEMPLO DE UMA SOLICITAÇÃO DE UMA PERK COM GET**
+**EXEMPLO DE SOLICITAÇÃO DE UMA PERK COM GET**
 
   
 localhost:8080/consultarPerk/Adrenaline
