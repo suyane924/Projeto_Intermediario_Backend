@@ -10,7 +10,7 @@ consultaPerkAPI.java : Tem um endpoint /consultarPerk/{name} que aceita uma soli
 
 consultaPerkPost.java : Diferente do anterior, este define o endpoint /consultarPerk que aceita solicitações POST. Quando e rota é acessada, o método consultarPerkPorNome é chamado, onde é feita a solicitação http POST para a API externa que fornece informações.
 
-perkDescricaoDTO.java : É um DTO utilizado para representar a descrição das vantagens do jogo.Os métodos getter e setter são fornecidos para acessar e modificar esses atributos. É usado para mapear os dados recebidos das solicitações.
+perkDescricaoDTO.java : Utilizado para representar a descrição das vantagens do jogo.Os métodos getter e setter são fornecidos para acessar e modificar esses atributos. É usado para mapear os dados recebidos das solicitações.
 
 **EXEMPLO DE SOLICITAÇÃO DE UMA PERK COM GET**
 
