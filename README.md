@@ -18,14 +18,15 @@ localhost:8080/consultarPerk/Adrenaline
 
 **Exemplo de solicitação de uma perk com POST**
 
-```
+'''
 {
 "name": "Adrenaline"
-}```
+}
+'''
 
 **Retorno das solicitações**
 
-```json
+```
 {
   "name": "Adrenaline",
   "description": "You are fueled by unexpected energy when on the verge of escape. Instantly heal one health state and sprint at {0}% of your normal running speed for {1} seconds when the exit gates are powered. Adrenaline is on hold if you are disabled at the moment it should take effect and will activate when freed. Adrenaline will wake you up if you are asleep when it triggers. Adrenaline ignores the Exhausted status effect. Causes the Exhausted status effect for {2} seconds. Exhausted prevents Survivors from activating exhausting perks.",
